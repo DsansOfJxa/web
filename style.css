@@ -1,9 +1,17 @@
+
 body {
     font-size: 15pt;
     background: skyblue;
 }
 b{
-    color: green;
+    color: rgb(54, 156, 54);
+}
+h1{
+    color: whitesmoke;
+    background: rgb(92, 92, 230);
+    padding: 10px 10px 10px 10px;
+    display: table;
+    border-radius: 8px 8px;
 }
 .text{
     width: 50%;
@@ -60,9 +68,7 @@ b{
 }
 
 #T_Dsans{
-    color: darkred;
-    background: gold;
-    padding: 10px 10px 10px 10px;
+
 }
 
 #GP {
