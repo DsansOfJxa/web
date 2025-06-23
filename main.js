@@ -13,7 +13,6 @@ boton.addEventListener("click", () =>{
     lista.style.display = "none"
     boton.style.left = "96%"
     anuncio.style.top = "100px"
-    
   }
 });
 const GP = document.getElementById("GP")
