@@ -24,7 +24,7 @@ B2.addEventListener("click", () =>{
     lista.style.display = "none"
     B2.style.display = "none"
     B1.style.display = "table"
-    anuncio.style.top = "10%";
+    anuncio.style.top = "13%";
   }
 });
 
