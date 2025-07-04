@@ -1,0 +1,173 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img_fondos/Creditos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* Basico */
+b{
+    color: #2563EB;
+}
+h1{
+    color: #1E3A8A;
+    background: #E0F2FE;
+    display: table;
+    padding: 8px;
+    border-radius: 4px 4px;
+    border: 5px solid rgb(235, 197, 94);
+    font-size: 21pt;
+}
+h3{
+ font-size: 19pt;
+ color: whitesmoke;
+}
+#T_Creditos{
+    display: block;
+    text-align: center;
+    font-size: 23pt;
+    margin: none;  
+}
+.text{
+    width: 50%;
+    font-size: 17pt;
+    background:  #e0f2fe9a;
+    border: 5px solid rgb(235, 197, 94);
+
+
+}
+.imagen{
+    padding: 8px 8px;
+    background: lightblue;
+    border: 4px solid   rgb(235, 197, 94);
+    border-radius: 7px;
+    display: inline-block;
+}
+/* Lista */
+.Boton{
+    background: #60A5FA;
+    color:   white;
+    padding: 0.6rem;
+    border: 0.17em solid rgb(235, 197, 94);
+    border-radius: 7px;
+    position: absolute;
+}
+
+#B-1{
+    top: 0%;
+    left: 96%;
+    position: fixed;
+     z-index: 10;
+}
+
+#B-2{
+    top: 0%;
+    left: 76%;
+    display:none;
+    position: fixed;
+    z-index: 10;
+}
+#lista{
+    background: #E0ECFF;
+    font-size: 18pt;
+    width: 20%;
+    height: 50%;
+    position: fixed;
+    top: 0px;
+    left: 79%;
+    display: none;
+    border: 4px solid rgb(235, 197, 94);
+    z-index: 10;
+}
+#t_lista {
+   text-align: center;
+}
+/* Personajes */
+.personaje{
+    display: none;
+}
+#Creditos{
+    display: block;
+}
+.Eleccion{
+    user-select: none;
+}
+/* Shrek */
+
+/* Anuncio */
+#anuncio{
+    background: #DBEAFE;
+    display: table;
+    border: 0.20em solid rgb(235, 197, 94);
+    z-index: 5;
+    font-size: 14pt;
+    padding: 0.7rem;
+    position: absolute;
+    left: 87.5%;
+    top: 14%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        display: table;
+        padding: 4px;
+        border-radius: 2px 2px;
+        border: 4px solid rgb(235, 197, 94);
+        font-size: 13pt;
+        width: 40%;
+    }
+    h2{
+        font-size: 14pt;
+        width: 40%;  
+    }
+    h3{
+        width: 40%;  
+        font-size: 14pt;
+    }
+    .imagen{
+        padding: 8px 8px;
+        background: lightblue;
+        width: 150px;
+        height: 150px;
+
+    }
+    .text{
+        font-size: 12pt;
+        width: 40%;
+    }
+    #anuncio{
+        border: 0.20em solid rgb(235, 197, 94);
+        left: 65%;
+        top: 10%;
+        font-size: 10pt;
+        padding: 0.7rem;
+        width: 8%;
+        height: 16%;
+
+    }
+    .Boton{
+        padding: 0.6rem;
+        border: 0.17em solid rgb(235, 197, 94);
+        border-radius: 7px; 
+    }
+    #B-1{ 
+        top: 5%;
+        left: 76%;
+    }
+     #B-2{
+        top: 5%;
+        left: 44%;
+
+    }
+    #lista{
+        font-size: 15pt;
+        top: 6%;
+        left: 57%;
+        border: 4px solid rgb(235, 197, 94);
+        height: 50%; 
+        width: 20%;
+    }
+}
