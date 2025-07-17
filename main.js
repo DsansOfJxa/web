@@ -119,7 +119,7 @@ function N_F(){
   Pou_E.style.display = "none"
   Benson.style.display = "none"
   Emy.style.display = "none"
-  Rayman.style.display = "block"
+  Rayman.style.display = "none"
   Demas.style.display = "block"
  
 
